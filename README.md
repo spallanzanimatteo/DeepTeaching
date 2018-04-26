@@ -53,11 +53,6 @@ install the [cuDNN](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index
 library; this will support GPU operations for TensorFlow.
 
 ### Installing TensorFlow
-Just follow carefully the official [TensorFlow installation guide](https://www.tensorflow.org/install/)
-for your OS.
-
-
-## Tests
 First activate the enviroment:
 
 * on **Windows**'s Anaconda command prompt
@@ -70,6 +65,11 @@ $ activate deepteaching
 $ source activate deepteaching
 ```
 
+Then, install TensorFlow into this environment: follow carefully the official [TensorFlow installation guide](https://www.tensorflow.org/install/)
+for your OS.
+
+
+## Tests
 To test the *notebooks*, open the first lesson
 ```
 $ jupyter notebook Lesson_1.ipynb

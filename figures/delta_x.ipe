@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20180419092903" modified="D:20180419092903"/>
+<info created="D:20180425092338" modified="D:20180425093240"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -254,1599 +254,1735 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 -48 -96" stroke="lightgreen" fill="lightgreen" pen="fat" tiling="falling">
-176 800 m
-160 800 l
-144 808 l
-160 808 l
+<path layer="alpha" matrix="1 0 0 1 64 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -64 -88" stroke="lightgreen" fill="lightgreen" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -48 -96" stroke="lightgreen" fill="lightgreen" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -32 -96" stroke="lightgreen" fill="lightgreen" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -48 -96" stroke="lightgreen" fill="lightgreen" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -64 -96" stroke="seagreen" fill="seagreen" pen="fat" tiling="falling">
-176 800 m
-160 800 l
-144 808 l
-160 808 l
+<path matrix="1 0 0 1 64 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -88" stroke="seagreen" fill="seagreen" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -64 -96" stroke="seagreen" fill="seagreen" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -48 -96" stroke="seagreen" fill="seagreen" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -64 -96" stroke="seagreen" fill="seagreen" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="darkblue" fill="darkblue" pen="fat" tiling="falling">
-176 800 m
-160 800 l
-144 808 l
-160 808 l
+<path matrix="1 0 0 1 64 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -96 -88" stroke="darkblue" fill="darkblue" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="darkblue" fill="darkblue" pen="fat" tiling="falling">
-160 800 m
-160 736 l
-176 736 l
-176 800 l
+<path matrix="1 0 0 1 112 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -64 -96" stroke="darkblue" fill="darkblue" dash="dotted" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="darkblue" fill="darkblue" pen="fat" tiling="falling">
-160 800 m
-144 808 l
-144 744 l
-160 736 l
+<path matrix="1 0 0 1 112 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 64 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -96 -136" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 112 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -32 -144" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 112 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 112 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 112 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 104 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -96 -120" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -32 -128" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 104 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -96 -104" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -32 -112" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 104 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -96 -88" stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -32 -96" stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 152 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -80 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 152 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -272 80" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 104 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -240 72" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 152 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -256 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 152 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -256 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 152 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -256 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 152 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -288 80" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 144 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -256 72" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -272 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -272 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 192 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -272 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 192 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -304 80" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 144 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -272 72" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -288 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -288 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 192 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -288 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 192 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -144 80" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 144 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -112 72" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -128 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -128 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 192 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -128 72" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 192 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -160 80" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 144 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 -128 72" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -144 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 192 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 -144 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 192 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 -144 72" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 192 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -176 80" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -64 -296" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 -144 72" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -96 -304" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 -160 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -80 -304" stroke="gold" fill="gold" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 -160 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -80 -304" stroke="gold" fill="gold" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 -160 72" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 -80 -304" stroke="gold" fill="gold" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 96 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 -24 -296" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 80 -136" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 -56 -304" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 144 -144" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 -40 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 96 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 -40 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 96 -144" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 -40 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 96 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
+<path matrix="1 0 0 1 16 -296" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 80 -120" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 -16 -304" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 144 -128" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 0 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 96 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
+<path matrix="1 0 0 1 0 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 96 -128" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
+<path matrix="1 0 0 1 0 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 96 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
-h
-</path>
-<path matrix="1 0 0 1 80 -104" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
-h
-</path>
-<path matrix="1 0 0 1 144 -112" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
-h
-</path>
-<path matrix="1 0 0 1 96 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
-h
-</path>
-<path matrix="1 0 0 1 96 -112" stroke="pink" fill="pink" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
-h
-</path>
-<path matrix="1 0 0 1 96 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-272 808 m
-288 800 l
-336 800 l
-320 808 l
-h
-</path>
-<path matrix="1 0 0 1 80 -88" stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
-h
-</path>
-<path matrix="1 0 0 1 144 -96" stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
-h
-</path>
-<path matrix="1 0 0 1 96 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-288 800 m
-272 808 l
-272 792 l
-288 784 l
-h
-</path>
-<path matrix="1 0 0 1 96 -96" stroke="violet" fill="violet" pen="fat" tiling="rising">
-288 800 m
-288 784 l
-336 784 l
-336 800 l
-h
-</path>
-<path matrix="1 0 0 1 32 -8" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 64 -16" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 48 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 16 -8" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 48 -16" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 0 -8" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 -16" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 -16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 -16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 16 -16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 32 8" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 64 0" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 0" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 0" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+128 620 m
+304 660 l
 </path>
-<path matrix="1 0 0 1 48 0" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 16 8" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 48 0" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 0" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 0" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 0" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 0 8" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 0" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 0" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 0" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 16 0" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 32 24" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 64 16" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 48 16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+88 620 m
+264 660 l
 </path>
-<path matrix="1 0 0 1 48 16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 16 24" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 48 16" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 32 16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
-</path>
-<path matrix="1 0 0 1 0 24" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 32 16" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
-h
-</path>
-<path matrix="1 0 0 1 16 16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
-h
-</path>
-<path matrix="1 0 0 1 16 16" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+48 620 m
+224 660 l
 </path>
-<path matrix="1 0 0 1 32 40" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 16 -72" stroke="lightgreen" fill="lightgreen" dash="dotted" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 64 32" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -16 -80" stroke="lightgreen" fill="lightgreen" dash="dotted" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 48 32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 0 -80" stroke="lightgreen" fill="lightgreen" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 48 32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 0 -80" stroke="lightgreen" fill="lightgreen" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 48 32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 0 -80" stroke="lightgreen" fill="lightgreen" tiling="rising">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 16 40" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -24 -72" stroke="seagreen" fill="seagreen" dash="dotted" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 48 32" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -56 -80" stroke="seagreen" fill="seagreen" dash="dotted" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 32 32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -40 -80" stroke="seagreen" fill="seagreen" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 32 32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -40 -80" stroke="seagreen" fill="seagreen" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 32 32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 -40 -80" stroke="seagreen" fill="seagreen" tiling="rising">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 0 40" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -64 -72" stroke="navy" fill="navy" dash="dotted" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 32 32" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -96 -80" stroke="navy" fill="navy" dash="dotted" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 16 32" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-352 680 l
-352 664 l
-368 656 l
+<path matrix="1 0 0 1 -80 -80" stroke="navy" fill="navy" tiling="rising">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 16 32" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-368 656 l
-384 656 l
-384 672 l
+<path matrix="1 0 0 1 -80 -80" stroke="navy" fill="navy" tiling="rising">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
 h
 </path>
-<path matrix="1 0 0 1 16 32" stroke="gold" fill="gold" opacity="30%">
-368 672 m
-384 672 l
-368 680 l
-352 680 l
+<path matrix="1 0 0 1 -80 -80" stroke="navy" fill="navy" tiling="rising">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -40" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
-h
-</path>
-<path matrix="1 0 0 1 0 -48" stroke="turquoise" fill="turquoise" dash="dotted" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
-h
-</path>
-<path matrix="1 0 0 1 -16 -48" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+128 620 m
+304 548 l
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+88 620 m
+264 548 l
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="turquoise" fill="turquoise" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
-h
+<path stroke="black" dash="dashed" arrow="normal/tiny" opacity="30%">
+48 620 m
+224 548 l
 </path>
-<path matrix="1 0 0 1 -16 -24" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 -112 -96" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="lightblue" fill="lightblue" dash="dotted" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 -64 -104" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -32" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 -64 -96" stroke="gold" fill="gold" opacity="30%">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 -64 -96" stroke="gold" fill="gold" opacity="30%">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="lightblue" fill="lightblue" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 -64 -96" stroke="gold" fill="gold" opacity="30%">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -8" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 -72 -96" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="pink" fill="pink" dash="dotted" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 -24 -104" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -16" stroke="pink" fill="pink" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 -24 -96" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="pink" fill="pink" pen="fat" tiling="rising">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 -24 -96" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="pink" fill="pink" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 -24 -96" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 8" stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 -32 -96" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path stroke="violet" fill="violet" dash="dotted" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 16 -104" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 0" stroke="violet" fill="violet" pen="fat" tiling="rising">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 16 -96" stroke="darkcyan" fill="darkcyan" opacity="30%">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path stroke="violet" fill="violet" pen="fat" tiling="rising">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 16 -96" stroke="darkcyan" fill="darkcyan" opacity="30%">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path stroke="violet" fill="violet" pen="fat" tiling="rising">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 16 -96" stroke="darkcyan" fill="darkcyan" opacity="30%">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -40" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 64 -192" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -200" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -48" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkcyan" fill="darkcyan" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 112 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 112 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -24" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 64 -176" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -184" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 112 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 112 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -8" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 64 -160" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -168" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -160" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 112 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 112 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 8" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 64 -144" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -152" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 0" stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 112 -144" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path stroke="darkcyan" fill="darkcyan" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 112 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path stroke="darkcyan" fill="darkcyan" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 112 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -40" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 104 -192" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -200" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -48" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 152 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 152 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -24" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 104 -176" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -184" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 152 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 152 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -8" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 104 -160" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -168" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -160" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 152 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 152 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 8" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 104 -144" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -152" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 0" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 152 -144" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 152 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path stroke="darkmagenta" fill="darkmagenta" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 152 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -40" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 144 -192" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -200" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -48" stroke="gold" fill="gold" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="gold" fill="gold" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 192 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -48" stroke="gold" fill="gold" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 192 -192" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -24" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 144 -176" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -184" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -32" stroke="gold" fill="gold" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="gold" fill="gold" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 192 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -32" stroke="gold" fill="gold" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 192 -176" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -8" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 144 -160" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -168" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 -16" stroke="gold" fill="gold" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -160" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="gold" fill="gold" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 192 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path matrix="1 0 0 1 0 -16" stroke="gold" fill="gold" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 192 -160" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
 </path>
-<path matrix="1 0 0 1 -16 8" stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 144 -144" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
 h
 </path>
-<path stroke="gold" fill="gold" dash="dotted" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -152" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
 h
 </path>
-<path matrix="1 0 0 1 -16 0" stroke="gold" fill="gold" opacity="30%">
-496 712 m
-512 704 l
-512 688 l
-496 696 l
+<path matrix="1 0 0 1 192 -144" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
 h
 </path>
-<path stroke="gold" fill="gold" opacity="30%">
-480 712 m
-496 704 l
-512 704 l
-496 712 l
+<path matrix="1 0 0 1 192 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
 h
 </path>
-<path stroke="gold" fill="gold" opacity="30%">
-496 704 m
-496 688 l
-512 688 l
-512 704 l
+<path matrix="1 0 0 1 192 -144" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
 h
-</path>
-<text matrix="1 0 0 1 -56 -96" transformations="translations" pos="128 720" stroke="black" type="label" width="21.489" height="8.846" depth="0" valign="baseline" style="math">W^{(1)}</text>
-<text matrix="1 0 0 1 -64 -96" transformations="translations" pos="160 720" stroke="black" type="label" width="21.489" height="8.846" depth="0" valign="baseline" style="math">W^{(2)}</text>
-<text matrix="1 0 0 1 -72 -96" transformations="translations" pos="192 720" stroke="black" type="label" width="21.489" height="8.846" depth="0" valign="baseline" style="math">W^{(3)}</text>
-<text matrix="1 0 0 1 -64 -96" transformations="translations" pos="328 792" stroke="black" type="label" width="53.414" height="7.474" depth="3.54" valign="baseline" style="math">W_{(1)} = l(\vec{e_1})</text>
-<text matrix="1 0 0 1 -64 -112" transformations="translations" pos="328 792" stroke="black" type="label" width="53.414" height="7.474" depth="3.54" valign="baseline" style="math">W_{(2)} = l(\vec{e_2})</text>
-<text matrix="1 0 0 1 -64 -128" transformations="translations" pos="328 792" stroke="black" type="label" width="53.414" height="7.474" depth="3.54" valign="baseline" style="math">W_{(3)} = l(\vec{e_3})</text>
-<text matrix="1 0 0 1 -64 -144" transformations="translations" pos="328 792" stroke="black" type="label" width="53.414" height="7.474" depth="3.54" valign="baseline" style="math">W_{(4)} = l(\vec{e_4})</text>
-<text matrix="1 0 0 1 -72 48" transformations="translations" pos="544 576" stroke="black" type="label" width="67.703" height="7.474" depth="3.54" valign="baseline" style="math">\delta x_i = \langle \delta s, W_{(i)} \rangle</text>
-<path stroke="black" pen="fat" arrow="normal/normal">
-384 728 m
-432 728 l
 </path>
 <path stroke="black" pen="fat" arrow="normal/normal">
-176 704 m
-176 640 l
+200 704 m
+264 704 l
 </path>
-<text matrix="1 0 0 1 -8 -12" transformations="translations" pos="408 744" stroke="black" type="label" width="14.874" height="11.644" depth="1.31" valign="baseline" size="huge" style="math">+</text>
-<text matrix="1 0 0 1 8 -4" transformations="translations" pos="152 672" stroke="black" type="label" width="10.331" height="9.614" depth="0" valign="baseline" size="huge" style="math">*</text>
-<text matrix="1 0 0 1 -152 104" transformations="translations" pos="192 656" stroke="black" type="label" width="94.124" height="8.965" depth="2.99" valign="baseline" size="large" style="math">\delta s = (\delta s_1, \delta s_2, \delta s_3)</text>
+<path stroke="black" pen="fat" arrow="normal/normal">
+200 584 m
+200 536 l
+</path>
+<path stroke="black" pen="ultrafat" arrow="normal/normal">
+200 372 m
+328 372 l
+</path>
+<path stroke="black" pen="ultrafat">
+264 376 m
+264 392 l
+</path>
+<path stroke="black" pen="ultrafat">
+256 384 m
+272 384 l
+</path>
+<text matrix="1 0 0 1 0 4" transformations="translations" pos="32 656" stroke="black" type="label" width="96.798" height="10.759" depth="4.09" valign="baseline" size="Large" style="math">\delta s = (\delta s_k)_{k = 1, 2, 3}</text>
+<text transformations="translations" pos="228 712" stroke="black" type="label" width="6.49" height="8.302" depth="0" valign="baseline" size="large" style="math">k</text>
+<text matrix="1 0 0 1 4 4" transformations="translations" pos="184 552" stroke="black" type="label" width="3.993" height="7.838" depth="0" valign="baseline" size="large" style="math">i</text>
+<path matrix="1 0 0 1 232 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 104 -296" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 72 -304" stroke="darkcyan" fill="darkcyan" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkcyan" fill="darkcyan" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
+h
+</path>
+<path matrix="1 0 0 1 232 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 104 -296" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 72 -304" stroke="darkmagenta" fill="darkmagenta" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="darkmagenta" fill="darkmagenta" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
+h
+</path>
+<path matrix="1 0 0 1 232 -304" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -312" stroke="turquoise" fill="turquoise" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -304" stroke="turquoise" fill="turquoise" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -288" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -296" stroke="lightblue" fill="lightblue" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -288" stroke="lightblue" fill="lightblue" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -272" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -280" stroke="pink" fill="pink" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -272" stroke="pink" fill="pink" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 232 -256" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+144 720 m
+144 704 l
+160 712 l
+160 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -264" stroke="violet" fill="violet" dash="dotted" tiling="falling">
+112 736 m
+112 720 l
+128 720 l
+128 736 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+112 720 m
+112 704 l
+128 712 l
+128 728 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+96 704 l
+112 704 l
+112 720 l
+h
+</path>
+<path matrix="1 0 0 1 280 -256" stroke="violet" fill="violet" tiling="falling">
+96 720 m
+112 720 l
+128 728 l
+112 728 l
+h
+</path>
+<path matrix="1 0 0 1 104 -296" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 72 -304" stroke="gold" fill="gold" dash="dotted" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="gold" fill="gold" opacity="30%">
+304 704 m
+320 712 l
+320 776 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="gold" fill="gold" opacity="30%">
+288 768 m
+288 704 l
+304 704 l
+304 768 l
+h
+</path>
+<path matrix="1 0 0 1 88 -304" stroke="gold" fill="gold" opacity="30%">
+288 768 m
+304 768 l
+320 776 l
+304 776 l
+h
+</path>
+<text matrix="1 0 0 1 -24 -124" transformations="translations" pos="368 496" stroke="black" type="label" width="177.806" height="10.761" depth="5.02" valign="baseline" size="Large" style="math">\delta x = (\delta x_i = \langle \delta s, W_{(i)} \rangle)_{i=1, 2, 3, 4}</text>
+<text transformations="translations" pos="336 656" stroke="black" type="label" width="65.661" height="12.675" depth="4.95" valign="baseline" size="Large" style="math">\frac{\partial s_k}{\partial x} = W^{(k)}</text>
+<text transformations="translations" pos="336 544" stroke="black" type="label" width="61.081" height="12.569" depth="6.44" valign="baseline" size="Large" style="math">\frac{\partial s}{\partial x_i} = W_{(i)}</text>
 </page>
 </ipe>
