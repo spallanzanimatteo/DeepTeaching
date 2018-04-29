@@ -36,7 +36,7 @@ from sklearn.preprocessing import scale
 sys.path.insert(0, '..')
 from data_management import get_batches_bptt
 from network_management import *
-from nodes import Placeholder, Variable, Matmul, RNNCell, MSE
+from nodes import Placeholder, Variable, Linear, RNNCell, MSE
 from trainers import SGD
 
 
@@ -62,7 +62,7 @@ class RecurrentModel():
         RNN = RNNCell(self.X, W_XS, W_SS, initial_hidden_state)
         # linear transformation
         W_SY = Variable(np.random.randn(num_hidden, 1))
-        self.y = Matmul(RNN, W_SY)
+        self.y = Linear(RNN, W_SY)
         self.loss = MSE(self.Y_hat, self.y)
         # set up graph and trainer
         input_nodes = [self.X, self.Y_hat, W_XS, W_SS, W_SY]

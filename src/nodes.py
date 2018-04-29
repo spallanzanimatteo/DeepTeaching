@@ -179,9 +179,9 @@ class Add(Node):
         Node.__init__(self, inbound_nodes=[x, bias])
 
     def forward(self):
-        self.state = np.zeros_like(self.inbound_nodes[0].state)
-        for node in self.inbound_nodes:
-            self.state = self.state + node.state
+        x = self.inbound_nodes[0].state
+        b = self.inbound_nodes[1].state
+        self.state = x + b
 
     def backward(self):
         # 1) collect error signals from outbound nodes
@@ -203,7 +203,7 @@ class Add(Node):
                 self.outgoing_errors[self.inbound_nodes[1]] += self.incoming_error[i]
 
 
-class Matmul(Node):
+class Linear(Node):
     """Create a linear projection operation (MATrix MULtiplication).
 
     The function is defined as $f(x, W)=xW$.
@@ -366,74 +366,74 @@ class CCE(Node):
     """Create Categorical Cross Entropy operation.
 
     The function is defined as
-    $R(\bar{y}, y)=\sum_{j=0}^{D-1}-\bar{y}_j\log(y_j)$
-    for a D-dimensional target vector $\bar{y}$.
+    $R(y_hat, y)=\sum_{j=0}^{D-1}-{y_hat}_{j}\log(y_j)$
+    for a D-dimensional target vector $y_hat$.
 
     """
-    def __init__(self, target, prediction):
-        Node.__init__(self, inbound_nodes=[target, prediction])
+    def __init__(self, y_hat, y):
+        Node.__init__(self, inbound_nodes=[y_hat, y])
 
     def forward(self):
-        target = self.inbound_nodes[0].state
-        prediction = self.inbound_nodes[1].state
+        y_hat = self.inbound_nodes[0].state
+        y = self.inbound_nodes[1].state
         # if no target labels are given, error cannot be measured
-        if target is None:
+        if y_hat is None:
             self.state = 0
         else:
-            batch_size = prediction.shape[0]
-            self.state = np.sum(-np.sum(target * np.log(prediction), axis=1)) / batch_size
+            batch_size = y.shape[0]
+            self.state = np.sum(-np.sum(y_hat * np.log(y), axis=1)) / batch_size
 
     def backward(self):
         # 2) distribute error signals to inbound nodes
-        target = self.inbound_nodes[0].state
-        prediction = self.inbound_nodes[1].state
+        y_hat = self.inbound_nodes[0].state
+        y = self.inbound_nodes[1].state
         # if no target labels are given, we have no clue to correct parameters
-        if target is None:
-            self.outgoing_errors[self.inbound_nodes[1]] = np.zeros_like(prediction)
+        if y_hat is None:
+            self.outgoing_errors[self.inbound_nodes[1]] = np.zeros_like(y)
         else:
-            batch_size = prediction.shape[0]
-            self.outgoing_errors[self.inbound_nodes[1]] = -(target/prediction) / batch_size
+            batch_size = y.shape[0]
+            self.outgoing_errors[self.inbound_nodes[1]] = -(y_hat/y) / batch_size
 
 
 class MSE(Node):
     """Create Mean Squared Error (MSE) operation.
 
     The function is defined as
-    $R(\bar{y}, y)=\frac{1}{2}\sum_{j=0}^{D-1}(\bar{y}_j-y_j)^2$
-    for a D-dimensional target vector $\bar{y}$.
+    $R(y_hat, y)=\frac{1}{2}\sum_{j=0}^{D-1}({y_hat}_{j}-y_j)^2$
+    for a D-dimensional target vector $y_hat$.
 
     """
-    def __init__(self, target, prediction):
-        Node.__init__(self, inbound_nodes=[target, prediction])
+    def __init__(self, y_hat, y):
+        Node.__init__(self, inbound_nodes=[y_hat, y])
 
     def forward(self):
-        target = self.inbound_nodes[0].state
-        prediction = self.inbound_nodes[1].state
+        y_hat = self.inbound_nodes[0].state
+        y = self.inbound_nodes[1].state
         # if no labels were given, error cannot be measured
-        if target is None:
+        if y_hat is None:
             self.state = 0
         else:
-            batch_size = prediction.shape[0]
-            diff = target - prediction
+            batch_size = y.shape[0]
+            diff = y_hat - y
             self.state = np.sum(np.sum(diff * diff, axis=1) / 2) / batch_size
 
     def backward(self):
         # 2) distribute error signals to inbound nodes
-        target = self.inbound_nodes[0].state
-        prediction = self.inbound_nodes[1].state
+        y_hat = self.inbound_nodes[0].state
+        y = self.inbound_nodes[1].state
         # if no labels were given, we have no clue to correct parameters
-        if target is None:
-            self.outgoing_errors[self.inbound_nodes[1]] = np.zeros_like(prediction)
+        if y_hat is None:
+            self.outgoing_errors[self.inbound_nodes[1]] = np.zeros_like(y)
         else:
-            batch_size = prediction.shape[0]
-            diff = target - prediction
+            batch_size = y.shape[0]
+            diff = y_hat - y
             self.outgoing_errors[self.inbound_nodes[1]] = -diff/batch_size
 
 
 ########
 # LAYERS
 ########
-class Linear(Node):
+class Affine(Node):
     """Create a linear projection operation.
 
     The function is defined as $f(x, W, b)=xW+b$.

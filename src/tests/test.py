@@ -36,7 +36,7 @@ from sklearn.preprocessing import scale
 sys.path.insert(0, '..')
 from data_management import get_batches
 from network_management import *
-from nodes import Placeholder, Variable, Matmul, Add, ReLU, MSE
+from nodes import Placeholder, Variable, Linear, Add, ReLU, MSE
 from trainers import SGDWithMomentum
 
 
@@ -56,12 +56,12 @@ class FeedforwardModel():
         num_hidden = 20
         W1 = Variable(np.random.randn(3, num_hidden))
         B1 = Variable(np.zeros((1, num_hidden)))
-        h = Add(Matmul(self.X, W1), B1)
+        h = Add(Linear(self.X, W1), B1)
         act_h = ReLU(h)
         # linear transformation
         W2 = Variable(np.random.randn(num_hidden, 1))
         B2 = Variable(np.zeros((1, 1)))
-        self.y = Add(Matmul(act_h, W2), B2)
+        self.y = Add(Linear(act_h, W2), B2)
         self.loss = MSE(self.Y_hat, self.y)
         # set up graph and trainer
         input_nodes = [self.X, self.Y_hat, W1, B1, W2, B2]
