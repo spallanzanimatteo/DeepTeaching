@@ -30,10 +30,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import numpy as np
 
 
-###########
-# BASE NODE
-###########
-class BaseNode(object):
+############
+# BASIC NODE
+############
+class Node(object):
     """Create an operation.
 
     Each operation takes an input consisting of one ore more operands (which
@@ -48,9 +48,9 @@ class BaseNode(object):
     timestep of forward propagation and from which to pop them during BPTT.
 
     Attributes:
-        inbound_nodes (:obj:`list` of :obj:`BaseNode`): the operations whose
+        inbound_nodes (:obj:`list` of :obj:`Node`): the operations whose
             states are required to perform the implemented operation.
-        outbound_nodes (:obj:`list` of :obj:`BaseNode`): the operations which
+        outbound_nodes (:obj:`list` of :obj:`Node`): the operations which
             require this operation's state for their computations.
         state (:obj:`ndarray`): the output of the operation.
         incoming_error (:obj:`ndarray`): the error signal collected from
@@ -76,7 +76,7 @@ class BaseNode(object):
         """Create a differentiable operation.
 
         Args:
-            inbound_nodes (:obj:`list` of :obj:`BaseNode`): the operations
+            inbound_nodes (:obj:`list` of :obj:`Node`): the operations
                 whose states are required to perform the implemented operation.
 
         """
@@ -108,10 +108,23 @@ class BaseNode(object):
 #############
 # INPUT NODES
 #############
-class Placeholder(BaseNode):
+class Constant(Node):
+    """Create an operation to provide a constant operand to the model."""
+    def __init__(self, value):
+        Node.__init__(self)
+        self.state = value
+
+    def forward(self):
+        pass
+
+    def backward(self):
+        pass
+
+
+class Placeholder(Node):
     """Create an operation to provide data operands to the model."""
     def __init__(self):
-        BaseNode.__init__(self)
+        Node.__init__(self)
 
     def forward(self, value=None):
         """Provide an operand.
@@ -129,7 +142,7 @@ class Placeholder(BaseNode):
         pass
 
 
-class Variable(BaseNode):
+class Variable(Node):
     """Create an operation to provide parameter operands to the model."""
     def __init__(self, initial_state):
         """Create an operation to provide parameter operands to the model.
@@ -138,7 +151,7 @@ class Variable(BaseNode):
             initial_state (:obj:`ndarray`): the initial value of the parameters.
 
         """
-        BaseNode.__init__(self)
+        Node.__init__(self)
         self.state = initial_state
         self.is_trainable = True
 
@@ -156,14 +169,14 @@ class Variable(BaseNode):
 ############
 # LINEAR OPS
 ############
-class Add(BaseNode):
+class Add(Node):
     """Create an element-wise addition operation.
 
     The operation is defined as $f(x, bias)=x+bias$.
 
     """
     def __init__(self, x, bias):
-        BaseNode.__init__(self, inbound_nodes=[x, bias])
+        Node.__init__(self, inbound_nodes=[x, bias])
 
     def forward(self):
         self.state = np.zeros_like(self.inbound_nodes[0].state)
@@ -190,14 +203,14 @@ class Add(BaseNode):
                 self.outgoing_errors[self.inbound_nodes[1]] += self.incoming_error[i]
 
 
-class Matmul(BaseNode):
+class Matmul(Node):
     """Create a linear projection operation (MATrix MULtiplication).
 
     The function is defined as $f(x, W)=xW$.
 
     """
     def __init__(self, x, w):
-        BaseNode.__init__(self, inbound_nodes=[x, w])
+        Node.__init__(self, inbound_nodes=[x, w])
 
     def forward(self):
         x = self.inbound_nodes[0].state
@@ -227,7 +240,7 @@ class Matmul(BaseNode):
 ################
 # NON-LINEAR OPS
 ################
-class LeakyReLU(BaseNode):
+class LeakyReLU(Node):
     """Create an element-wise Leaky Rectified Linear Unit (LeakyReLU) operation.
 
     The function is defined as $f(x)=x if x>0, f(x)=q*x if x<=0$ (with q >= 0).
@@ -235,7 +248,7 @@ class LeakyReLU(BaseNode):
 
     """
     def __init__(self, q, x):
-        BaseNode.__init__(self, inbound_nodes=[x])
+        Node.__init__(self, inbound_nodes=[x])
         self.q = q
 
     def forward(self):
@@ -268,7 +281,7 @@ class ReLU(LeakyReLU):
         LeakyReLU.__init__(self, 0, x)
 
 
-class Sigmoid(BaseNode):
+class Sigmoid(Node):
     """Create a sigmoid operation.
 
     The function is defined as $f(x)=\frac{e^x}{1+e^x}$. The output is in
@@ -276,7 +289,7 @@ class Sigmoid(BaseNode):
 
     """
     def __init__(self, x):
-        BaseNode.__init__(self, inbound_nodes=[x])
+        Node.__init__(self, inbound_nodes=[x])
 
     def forward(self):
         x = self.inbound_nodes[0].state
@@ -292,7 +305,7 @@ class Sigmoid(BaseNode):
         self.outgoing_errors[self.inbound_nodes[0]] = self.state * (1-self.state) * self.incoming_error
 
 
-class Softmax(BaseNode):
+class Softmax(Node):
     """Create a softmax operation.
 
     The function is defined as $f(x_j)=\frac{e^{x_j}}{\sum_{j=0}^{D-1}e^{x_j}}$,
@@ -300,7 +313,7 @@ class Softmax(BaseNode):
 
     """
     def __init__(self, x):
-        BaseNode.__init__(self, inbound_nodes=[x])
+        Node.__init__(self, inbound_nodes=[x])
 
     def forward(self):
         x = self.inbound_nodes[0].state
@@ -321,7 +334,7 @@ class Softmax(BaseNode):
             self.outgoing_errors[self.inbound_nodes[0]][i] = np.dot(self.incoming_error[i], prob_jacobian.T)
 
 
-class Tanh(BaseNode):
+class Tanh(Node):
     """Create an hyperbolic tangent operation.
 
     The function is defined as $f(x)=\frac{e^x - e^{-x}}{e^x + e^{-x}}$.
@@ -329,7 +342,7 @@ class Tanh(BaseNode):
 
     """
     def __init__(self, x):
-        BaseNode.__init__(self, inbound_nodes=[x])
+        Node.__init__(self, inbound_nodes=[x])
 
     def forward(self):
         x = self.inbound_nodes[0].state
@@ -349,7 +362,7 @@ class Tanh(BaseNode):
 ################
 # RISK FUNCTIONS
 ################
-class CCE(BaseNode):
+class CCE(Node):
     """Create Categorical Cross Entropy operation.
 
     The function is defined as
@@ -358,7 +371,7 @@ class CCE(BaseNode):
 
     """
     def __init__(self, target, prediction):
-        BaseNode.__init__(self, inbound_nodes=[target, prediction])
+        Node.__init__(self, inbound_nodes=[target, prediction])
 
     def forward(self):
         target = self.inbound_nodes[0].state
@@ -382,7 +395,7 @@ class CCE(BaseNode):
             self.outgoing_errors[self.inbound_nodes[1]] = -(target/prediction) / batch_size
 
 
-class MSE(BaseNode):
+class MSE(Node):
     """Create Mean Squared Error (MSE) operation.
 
     The function is defined as
@@ -391,7 +404,7 @@ class MSE(BaseNode):
 
     """
     def __init__(self, target, prediction):
-        BaseNode.__init__(self, inbound_nodes=[target, prediction])
+        Node.__init__(self, inbound_nodes=[target, prediction])
 
     def forward(self):
         target = self.inbound_nodes[0].state
@@ -420,14 +433,14 @@ class MSE(BaseNode):
 ########
 # LAYERS
 ########
-class Linear(BaseNode):
+class Linear(Node):
     """Create a linear projection operation.
 
     The function is defined as $f(x, W, b)=xW+b$.
 
     """
     def __init__(self, x, w, b):
-        BaseNode.__init__(self, inbound_nodes=[x, w, b])
+        Node.__init__(self, inbound_nodes=[x, w, b])
 
     def forward(self):
         x = self.inbound_nodes[0].state
@@ -461,7 +474,7 @@ class Linear(BaseNode):
             self.outgoing_errors[self.inbound_nodes[2]] += error_b[i]
 
 
-class RNNCell(BaseNode):
+class RNNCell(Node):
     """Create a simple recurrent cell for RNNs.
 
     The function is defined as
@@ -470,7 +483,7 @@ class RNNCell(BaseNode):
 
     """
     def __init__(self, x, w_xs, w_ss, initial_state):
-        BaseNode.__init__(self, inbound_nodes=[x, w_xs, w_ss])
+        Node.__init__(self, inbound_nodes=[x, w_xs, w_ss])
         self.initial_state = initial_state
         self.inbound_nodes.append(self)
         self.outbound_nodes.append(self)

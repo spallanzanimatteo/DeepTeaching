@@ -36,7 +36,7 @@ def get_connectivity(input_nodes):
     Recurrent connections (i.e. connections of a node with itself) are excluded.
 
     Args:
-        input_nodes (:obj:`list` of :obj:`BaseNode`): the input operations of
+        input_nodes (:obj:`list` of :obj:`Node`): the input operations of
             the model.
 
     Returns:
@@ -74,13 +74,13 @@ def topological_sort(input_nodes, graph):
     """Get a consistent sequence of operations on the given graph.
 
     Args:
-        input_nodes (:obj:`list` of :obj:`BaseNode`): the input operations of
+        input_nodes (:obj:`list` of :obj:`Node`): the input operations of
             the model.
         graph (:obj:`dict` of :obj:`dict` of :obj:`set`): a description of the
             graph's connectivity.
 
     Returns:
-        sorted_nodes (:obj:`list` of :obj:`BaseNode`): a sequence of operations
+        sorted_nodes (:obj:`list` of :obj:`Node`): a sequence of operations
             that ensures computational consistency of the model.
 
     """
@@ -113,11 +113,11 @@ def get_graph_flow(input_nodes):
     A wrapper function to automate model build.
 
      Args:
-        input_nodes (:obj:`list` of :obj:`BaseNode`): the input operations of
+        input_nodes (:obj:`list` of :obj:`Node`): the input operations of
             the graph.
 
      Returns:
-        requirements_chain (:obj:`list` of :obj:`BaseNode`): a sequence of
+        requirements_chain (:obj:`list` of :obj:`Node`): a sequence of
             operations that ensures computational consistency of the model.
 
    """
@@ -132,11 +132,11 @@ def get_parameters_nodes(graph):
     """Find operations containing the parameters of the model.
 
      Args:
-        graph (:obj:`list` of :obj:`BaseNode`): the input operations of the
+        graph (:obj:`list` of :obj:`Node`): the input operations of the
             model.
 
      Returns:
-        parameters (:obj:`list` of :obj:`BaseNode`): the operations containing
+        parameters (:obj:`list` of :obj:`Node`): the operations containing
             the parameters of the model.
 
     """
@@ -153,7 +153,7 @@ def push_graph_state(graph):
     """Take a snapshot of current graph state.
 
     Args:
-        graph (:obj:`list` of :obj:`BaseNode`): the operations that should push
+        graph (:obj:`list` of :obj:`Node`): the operations that should push
             their current state on their history stack.
 
     """
@@ -166,7 +166,7 @@ def pop_graph_state(graph):
     """Load last known snapshot of graph history.
 
     Args:
-        graph (:obj:`list` of :obj:`BaseNode`): the operations that should pop
+        graph (:obj:`list` of :obj:`Node`): the operations that should pop
             last entry from their history stack.
 
     """
@@ -184,7 +184,7 @@ def save_last_states(graph, stateful=True):
     current batch will be reused.
 
     Args:
-        graph (:obj:`list` of :obj:`BaseNode`): the complete sequence of
+        graph (:obj:`list` of :obj:`Node`): the complete sequence of
             operations in the model.
         stateful (:obj:`Bool`): whether the last memory state after the
             complete batch should be passed to the next batch (stateful RNNs)
@@ -206,7 +206,7 @@ def load_initial_states(graph):
     """Initialize states of RNNs' recurrent cells.
 
     Args:
-        graph (:obj:`list` of :obj:`BaseNode`): the complete sequence of
+        graph (:obj:`list` of :obj:`Node`): the complete sequence of
             operations in the model.
 
     """
@@ -224,7 +224,7 @@ def forward_prop(requirements_chain):
     Consistently complete the systolic sequence of operations.
 
     Args:
-        requirements_chain (:obj:`list` of :obj:`BaseNode`): a sequence of
+        requirements_chain (:obj:`list` of :obj:`Node`): a sequence of
             operations that ensures computational consistency of the model.
 
     """
@@ -237,7 +237,7 @@ def backward_prop(requirements_chain):
     corrections).
 
     Args:
-        requirements_chain (:obj:`list` of :obj:`BaseNode`): a sequence of
+        requirements_chain (:obj:`list` of :obj:`Node`): a sequence of
             operations that ensures computational consistency of the model.
 
     """
