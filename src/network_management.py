@@ -128,11 +128,11 @@ def get_graph_flow(input_nodes):
     return requirements_chain
 
 
-def get_parameters_nodes(graph):
+def get_parameters_nodes(input_nodes):
     """Find operations containing the parameters of the model.
 
      Args:
-        graph (:obj:`list` of :obj:`Node`): the input operations of the
+        input_nodes (:obj:`list` of :obj:`Node`): the input operations of the
             model.
 
      Returns:
@@ -142,7 +142,7 @@ def get_parameters_nodes(graph):
     """
 
     parameters = list()
-    for node in graph:
+    for node in input_nodes:
         if node.is_trainable:
             parameters.append(node)
 
