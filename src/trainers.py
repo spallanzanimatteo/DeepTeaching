@@ -7,7 +7,7 @@ All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
-* Redistributions of source code must retain the above copyright notice, this
+* Redistributions of source code must reta  in the above copyright notice, this
   list of conditions and the following disclaimer.
 
 * Redistributions in binary form must reproduce the above copyright notice,
@@ -30,7 +30,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import numpy as np
 
 
-class BaseTrainer():
+class Trainer():
     """Create a trainer to monitor and update models :obj:`Variable` nodes.
 
     This object is linked to all the :obj:`Variable` nodes of a given graph, and
@@ -70,10 +70,10 @@ class BaseTrainer():
         pass
 
 
-class SGD(BaseTrainer):
+class SGD(Trainer):
     """Vanilla Stochastic Gradient Descent (SGD) optimizer."""
     def __init__(self, parameters, learning_rate=0.001):
-        BaseTrainer.__init__(self, parameters, learning_rate)
+        Trainer.__init__(self, parameters, learning_rate)
 
     def apply_gradients(self):
         for (node, grad) in self.gradients.items():
