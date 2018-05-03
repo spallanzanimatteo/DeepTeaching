@@ -46,28 +46,40 @@ class FeedforwardModel():
         self.learning_rate = 0.001
         self.num_epochs = 40
         self.batch_size = 16
-        self._build()
+        self.input_nodes = list()
+        self.inference_graph = self._build_inference_graph()
+        self.training_graph = self._build_training_graph()
 
-    def _build(self):
-        # data nodes
+    def _build_inference_graph(self):
+        # input layer
         self.X = Placeholder()
-        self.Y_hat = Placeholder()
         # hidden layer
         num_hidden = 20
         W1 = Variable(np.random.randn(3, num_hidden))
         B1 = Variable(np.zeros((1, num_hidden)))
         h = Add(Linear(self.X, W1), B1)
         act_h = ReLU(h)
-        # linear transformation
+        # output layer
         W2 = Variable(np.random.randn(num_hidden, 1))
         B2 = Variable(np.zeros((1, 1)))
         self.y = Add(Linear(act_h, W2), B2)
+        # build inference graph
+        self.input_nodes.extend([self.X, W1, B1, W2])
+        graph = get_graph_flow(self.input_nodes)
+
+        return graph
+
+    def _build_training_graph(self):
+        self.Y_hat = Placeholder()
         self.loss = MSE(self.Y_hat, self.y)
-        # set up graph and trainer
-        input_nodes = [self.X, self.Y_hat, W1, B1, W2, B2]
-        self.graph = get_graph_flow(input_nodes)
-        parameters = get_parameters_nodes(self.graph)
+        self.input_nodes.extend([self.Y_hat])
+        # add Trainer
+        parameters = get_parameters_nodes(self.input_nodes)
         self.trainer = SGDWithMomentum(parameters, learning_rate=self.learning_rate)
+        # build training graph
+        graph = get_graph_flow(self.input_nodes)
+
+        return graph
 
     def _load_data(self):
         # load Boston housing prices data
@@ -104,11 +116,11 @@ class FeedforwardModel():
                 # forward pass
                 self.X.forward(value=x)
                 self.Y_hat.forward(value=y_hat)
-                forward_prop(self.graph)
+                forward_prop(self.training_graph)
                 train_error += self.loss.state
                 # backward pass
                 # compute gradients
-                backward_prop(self.graph)
+                backward_prop(self.training_graph)
                 self.trainer.update_gradients()
                 # apply corrections
                 self.trainer.apply_gradients()
@@ -118,13 +130,19 @@ class FeedforwardModel():
             for x, y_hat in valid_batches:
                 self.X.forward(value=x)
                 self.Y_hat.forward(value=y_hat)
-                forward_prop(self.graph)
+                forward_prop(self.training_graph)
                 valid_error += self.loss.state
             val_errors.append(valid_error/len(valid_batches))
             print("Epoch {:2d} - Loss: {:4.2f}".format(i_epoch+1, val_errors[-1]))
         plt.plot(range(self.num_epochs), tr_errors)
         plt.plot(range(self.num_epochs), val_errors)
         plt.show()
+
+    def infer(self, x):
+        self.X.forward(value=x)
+        forward_prop(self.inference_graph)
+
+        return self.y.state
 
 
 ########################

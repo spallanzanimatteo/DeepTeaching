@@ -44,31 +44,43 @@ class RecurrentModel():
     def __init__(self):
         self.__name__ = 'BloodPressure'
         self.learning_rate = 0.0001
-        self.num_epochs = 20
+        self.num_epochs = 2
         self.batch_size = 8
         self.time_steps = 10
-        self._build()
+        self.input_nodes = list()
+        self.inference_graph = self._build_inference_graph()
+        self.training_graph = self._build_training_graph()
 
-    def _build(self):
-        # data nodes
+    def _build_inference_graph(self):
+        # input layer
         self.X = Placeholder()
-        self.Y_hat = Placeholder()
-        # RNN cell
+        # RNN cell (hidden layer)
         # batch size is required here to setup proper initial state for RNN cell
         num_hidden = 32
         W_XS = Variable(np.random.randn(2, num_hidden))
         W_SS = Variable(np.random.randn(num_hidden, num_hidden))
         initial_hidden_state = np.zeros((self.batch_size, num_hidden))
-        RNN = RNNCell(self.X, W_XS, W_SS, initial_hidden_state)
-        # linear transformation
+        self.RNN = RNNCell(self.X, W_XS, W_SS, initial_hidden_state)
+        # output layer
         W_SY = Variable(np.random.randn(num_hidden, 1))
-        self.y = Linear(RNN, W_SY)
+        self.y = Linear(self.RNN, W_SY)
+        # build inference graph
+        self.input_nodes.extend([self.X, W_XS, W_SS, W_SY])
+        graph = get_graph_flow(self.input_nodes)
+
+        return graph
+
+    def _build_training_graph(self):
+        self.Y_hat = Placeholder()
         self.loss = MSE(self.Y_hat, self.y)
-        # set up graph and trainer
-        input_nodes = [self.X, self.Y_hat, W_XS, W_SS, W_SY]
-        self.graph = get_graph_flow(input_nodes)
-        parameters = get_parameters_nodes(self.graph)
-        self.trainer = SGD(parameters, learning_rate=0.0001)
+        self.input_nodes.extend([self.Y_hat])
+        # add Trainer
+        parameters = get_parameters_nodes(self.input_nodes)
+        # build training graph
+        self.trainer = SGD(parameters, learning_rate=self.learning_rate)
+        graph = get_graph_flow(self.input_nodes)
+
+        return graph
 
     def _load_data(self):
         # load blood pressure data
@@ -104,20 +116,20 @@ class RecurrentModel():
             for x, y_hat in train_batches:
                 # forward pass
                 batch_error = 0.0
-                load_initial_states(self.graph)
+                load_initial_states(self.training_graph)
                 for t in range(self.time_steps):
                     self.X.forward(value=x[t])
                     self.Y_hat.forward(value=y_hat[t])
-                    forward_prop(self.graph)
-                    push_graph_state(self.graph)
+                    forward_prop(self.training_graph)
+                    push_graph_state(self.training_graph)
                     batch_error += self.loss.state
-                save_last_states(self.graph)
+                save_last_states(self.training_graph)
                 train_error += batch_error
                 # backward pass
                 # compute and accumulate gradients over each unfolded timestep
                 for t in range(self.time_steps)[::-1]:
-                    pop_graph_state(self.graph)
-                    backward_prop(self.graph)
+                    pop_graph_state(self.training_graph)
+                    backward_prop(self.training_graph)
                     self.trainer.update_gradients()
                 # apply corrections
                 self.trainer.apply_gradients()
@@ -127,11 +139,11 @@ class RecurrentModel():
             valid_error = 0.0
             for x, y_hat in valid_batches:
                 batch_error = 0.0
-                load_initial_states(self.graph)
+                load_initial_states(self.training_graph)
                 for t in range(self.time_steps):
                     self.X.forward(value=x[t])
                     self.Y_hat.forward(value=y_hat[t])
-                    forward_prop(self.graph)
+                    forward_prop(self.training_graph)
                     batch_error += self.loss.state
                 valid_error += batch_error
             # store average loss on validation batches
@@ -140,6 +152,15 @@ class RecurrentModel():
         plt.plot(range(self.num_epochs), tr_errors)
         plt.plot(range(self.num_epochs), val_errors)
         plt.show()
+
+    def infer(self, x):
+        # set RNNCell state to inference mode: only a single state is mantained
+        if self.RNN.state.shape[0] is not 1:
+            self.RNN.state = self.RNN.state[0, None, :]
+        self.X.forward(value=x)
+        forward_prop(self.inference_graph)
+
+        return self.y.state
 
 
 ######################
