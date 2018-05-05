@@ -89,13 +89,13 @@ class FeedforwardModel():
         elif sys.platform == 'linux':
             dataset = pd.read_csv(
                 '/'.join(['.', 'data', 'boston_housing.txt']))
-        x = dataset.values[:, 0:3]
-        y_hat = dataset.values[:, 3][:, None]
+        X = dataset.values[:, 0:3]
+        Y_hat = dataset.values[:, 3][:, None]
         # normalize data
-        x = scale(x, axis=0)
-        y_hat = scale(y_hat, axis=0)
+        X = scale(X, axis=0)
+        Y_hat = scale(Y_hat, axis=0)
         # create training and validation batches
-        batches = get_batches(x, y_hat, bs=self.batch_size)
+        batches = get_batches(X, Y_hat, bs=self.batch_size)
         num_batches = len(batches)
         val = 0.10
         num_val_batches = int(val * num_batches)
@@ -134,8 +134,9 @@ class FeedforwardModel():
                 valid_error += self.loss.state
             val_errors.append(valid_error/len(valid_batches))
             print("Epoch {:2d} - Loss: {:4.2f}".format(i_epoch+1, val_errors[-1]))
-        plt.plot(range(self.num_epochs), tr_errors)
-        plt.plot(range(self.num_epochs), val_errors)
+        plt.plot(range(self.num_epochs), tr_errors, label='Training')
+        plt.plot(range(self.num_epochs), val_errors, label='Validation')
+        plt.legend()
         plt.show()
 
     def infer(self, x):

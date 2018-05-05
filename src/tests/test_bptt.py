@@ -44,7 +44,7 @@ class RecurrentModel():
     def __init__(self):
         self.__name__ = 'BloodPressure'
         self.learning_rate = 0.0001
-        self.num_epochs = 2
+        self.num_epochs = 10
         self.batch_size = 8
         self.time_steps = 10
         self.input_nodes = list()
@@ -90,13 +90,13 @@ class RecurrentModel():
         elif sys.platform == 'linux':
             dataset = pd.read_csv(
                 '/'.join(['.', 'data', 'blood_pressure.txt']), sep=';')
-        x = dataset.values[:, (1, 3)]
-        y_hat = dataset.values[:, 2][:, None]
+        X = dataset.values[:, (1, 3)]
+        Y_hat = dataset.values[:, 2][:, None]
         # normalize data
-        x = scale(x, axis=0)
-        y_hat = scale(y_hat, axis=0)
+        X = scale(X, axis=0)
+        Y_hat = scale(Y_hat, axis=0)
         # create training and validation batches
-        batches = get_batches_bptt(x, y_hat, ts=self.time_steps, bs=self.batch_size)
+        batches = get_batches_bptt(X, Y_hat, ts=self.time_steps, bs=self.batch_size)
         num_batches = len(batches)
         val = 0.10
         num_val_batches = int(val * num_batches)
@@ -149,8 +149,9 @@ class RecurrentModel():
             # store average loss on validation batches
             val_errors.append(valid_error/(len(valid_batches)*self.time_steps))
             print("Epoch {:2d} - Loss: {:6.2f}".format(i_epoch+1, val_errors[-1]))
-        plt.plot(range(self.num_epochs), tr_errors)
-        plt.plot(range(self.num_epochs), val_errors)
+        plt.plot(range(self.num_epochs), tr_errors, label='Training')
+        plt.plot(range(self.num_epochs), val_errors, label='Validation')
+        plt.legend()
         plt.show()
 
     def infer(self, x):
