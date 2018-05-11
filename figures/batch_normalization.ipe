@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20180508144937" modified="D:20180508144937"/>
+<info created="D:20180508144937" modified="D:20180511190836"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -254,73 +254,73 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1.36364 32 -322.909" stroke="black" arrow="normal/normal">
+<path layer="alpha" matrix="1 0 0 1.36364 -96 -322.909" stroke="black" arrow="normal/normal">
 224 624 m
 224 800 l
 </path>
-<path matrix="1.36364 0 0 1 -139.636 0" stroke="black" arrow="normal/normal">
+<path matrix="1.36364 0 0 1 -267.636 0" stroke="black" arrow="normal/normal">
 208 640 m
 384 640 l
 </path>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="348 728" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="364 724" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="360 708" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="352 720" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="336 716" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="332 696" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="348 700" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="344 712" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="380 704" size="large" stroke="black"/>
-<use matrix="1 0 0 1 4 16" name="mark/disk(sx)" pos="368 736" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="268 684" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="272 676" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="284 684" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="280 672" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="288 664" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="292 676" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="268 664" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="272 660" size="large" stroke="black"/>
-<use matrix="1 0 0 1 24 24" name="mark/fsquare(sfx)" pos="288 652" size="large" stroke="black"/>
-<path matrix="1.16667 0 0 1.2 -42.6667 -128" stroke="darkcyan" pen="ultrafat" arrow="normal/normal">
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="348 728" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="364 724" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="360 708" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="352 720" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="336 716" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="332 696" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="348 700" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="344 712" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="380 704" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -124 16" name="mark/disk(sx)" pos="368 736" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="268 684" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="272 676" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="284 684" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="280 672" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="288 664" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="292 676" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="268 664" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="272 660" size="large" stroke="black"/>
+<use matrix="1 0 0 1 -104 24" name="mark/fsquare(sfx)" pos="288 652" size="large" stroke="black"/>
+<path matrix="1.16667 0 0 1.2 -170.667 -128" stroke="darkcyan" pen="ultrafat" arrow="normal/normal">
 256 640 m
 352 720 l
 </path>
-<path matrix="0.75 0 0 0.75 64 160" stroke="darkmagenta" pen="ultrafat" arrow="normal/normal">
+<path matrix="0.75 0 0 0.75 -64 160" stroke="darkmagenta" pen="ultrafat" arrow="normal/normal">
 256 640 m
 320 704 l
 </path>
-<path matrix="1 0 0 1.36364 32 -626.909" stroke="black" arrow="normal/normal">
+<path matrix="1 0 0 1.36364 224 -322.909" stroke="black" arrow="normal/normal">
 224 624 m
 224 800 l
 </path>
-<path matrix="1.36364 0 0 1 -139.636 -304" stroke="black" arrow="normal/normal">
+<path matrix="1.36364 0 0 1 52.364 0" stroke="black" arrow="normal/normal">
 208 640 m
 384 640 l
 </path>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="348 728" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="364 724" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="360 708" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="352 720" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="336 716" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="332 696" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="348 700" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="344 712" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="380 704" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -170.713 -529.75" name="mark/disk(sx)" pos="368 736" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="268 684" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="272 676" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="284 684" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="280 672" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="288 664" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="292 676" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="268 664" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="272 660" size="large" stroke="black"/>
-<use matrix="1.28556 0 0 1.23094 -145.002 -519.902" name="mark/fsquare(sfx)" pos="288 652" size="large" stroke="black"/>
-<path matrix="1 0 0 0.8 0 67.2" stroke="darkcyan" pen="ultrafat" arrow="normal/normal">
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="348 728" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="364 724" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="360 708" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="352 720" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="336 716" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="332 696" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="348 700" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="344 712" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="380 704" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 21.287 -225.75" name="mark/disk(sx)" pos="368 736" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="268 684" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="272 676" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="284 684" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="280 672" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="288 664" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="292 676" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="268 664" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="272 660" size="large" stroke="black"/>
+<use matrix="1.28556 0 0 1.23094 46.998 -215.902" name="mark/fsquare(sfx)" pos="288 652" size="large" stroke="black"/>
+<path matrix="1 0 0 0.8 192 371.2" stroke="darkcyan" pen="ultrafat" arrow="normal/normal">
 256 336 m
 288 356 l
 </path>
-<path matrix="1.5 0 0 1.6 -128 -201.6" stroke="darkmagenta" pen="ultrafat" arrow="normal/normal">
+<path matrix="1.5 0 0 1.6 64 102.4" stroke="darkmagenta" pen="ultrafat" arrow="normal/normal">
 256 336 m
 224 316 l
 </path>
